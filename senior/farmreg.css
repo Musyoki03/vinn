@@ -1,0 +1,50 @@
+body{
+    background-color:aquamarine;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin: 0%;
+    padding:50px;
+    flex-wrap: wrap;
+
+}
+.farm_details h1{
+    text-align:center;
+    padding-left: 30px;
+    margin-bottom: 0;
+    text-decoration: wavy;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.farm_details h6{
+    text-align: center;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.farm_details h2{
+    text-decoration: dashed;
+    text-transform: capitalize;
+}
+.farm_details label, input{
+    display: block;
+    margin: 10px;
+}
+.farm_details label{
+    margin-bottom: 0px;
+}
+.farm_details input{
+    display: inline;
+    padding-left: 40px;
+}
+.farm_details ::placeholder{
+    text-transform: capitalize;
+    font-size: small;
+    font-style: italic;
+    font-weight: lighter;
+}
+#land_details{
+    position: relative;
+    padding-left: 50px;
+}

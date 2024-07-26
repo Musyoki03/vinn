@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>farmreg</title>
+    <link rel="stylesheet" href="farmreg.css">
+</head>
+<body>
+    <div class="farm_details">
+        <h1><b>welcome to agritech solution</b> </h1>
+        <h6> <i>our mission is to ensure that all parties involved in land ownership get real-time and reliable infromation </i></h6>
+
+    </div>
+    <div>
+     <section class="farm_details">
+        <h2>enter your farm details in the form below</h2>
+            <form id="land_details">
+
+                <label for="name">Your Name:</label>
+                 <input type="text" id="name" name="name" placeholder="enter your offcial name " required>
+    
+                  <label for="email">Email:</label>
+                 <input type="email" id="email" name="email" placeholder="enter your email address" required>
+ 
+                 <label for="map_number">map number:</label>
+                <input type="number" id="number" name="map_number" placeholder="map number here" required>
+
+                 <br>
+    
+                <button type="button" onclick="submitForm()">Submit</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
